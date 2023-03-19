@@ -1,0 +1,51 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+
+@font-face {
+    font-family: "G-font";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+  
+
+.head {
+  font-family: G-font;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.48;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  margin-top: 80px;
+}
+
+.sub {
+  font-family: NanumSquareL;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.img{
+width: 960px;
+        height: 800px;
+        background-color: #a2ca9d;
+        margin: 0 auto;
+        margin-bottom: 150px;
+      }
+}
